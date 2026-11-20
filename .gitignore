@@ -1,0 +1,47 @@
+# Local build output.
+bin/
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.d
+*.ptx
+*.cubin
+*.fatbin
+
+# Python environments and caches.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary logs and scratch files.
+*.log
+*.stderr
+*.tmp
+*.swp
+*.swo
+*~
+/artifacts/
+
+# Machine-local configuration and credentials.
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Private video sources and generated assets.
+/show/video/

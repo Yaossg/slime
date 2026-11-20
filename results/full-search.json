@@ -1,0 +1,58 @@
+{
+  "brute": {
+    "count": 17179869184,
+    "samples_ms": [
+      300.036,
+      321.742,
+      332.635,
+      321.361,
+      326.042
+    ],
+    "median_ms": 321.742,
+    "projected_full48_ms": 5271420.928
+  },
+  "cli_known": {
+    "center": [
+      51069,
+      419124
+    ],
+    "radius_chunks": 0,
+    "square_size": 5,
+    "anchors": 1,
+    "position_batch": 32,
+    "job_batch": 2048,
+    "cache_classes": 4096,
+    "matches": 24,
+    "samples_ms": [
+      3.6075,
+      1.783925,
+      1.660317,
+      1.666167,
+      1.830725,
+      1.766916,
+      1.75565
+    ],
+    "median_ms": 1.766916
+  },
+  "cli_region": {
+    "center": [
+      0,
+      0
+    ],
+    "radius_chunks": 512,
+    "square_size": 5,
+    "anchors": 525313,
+    "position_batch": 128,
+    "job_batch": 2048,
+    "cache_classes": 4096,
+    "matches": 0,
+    "samples_ms": [
+      4406.497334,
+      4206.928895,
+      4306.823532,
+      4181.983991,
+      4355.03335
+    ],
+    "median_ms": 4306.823532
+  }
+}
